@@ -39,16 +39,16 @@ class App extends StatelessWidget{
           child: Text('Login'),
         ),
       ),
-      body: new Center (
-          child: new Column(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.center,
+      body: new ListView (
+          // child: new Column(
+          //   mainAxisSize: MainAxisSize.max,
+          //   mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     child: TextField(
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
@@ -118,7 +118,7 @@ class App extends StatelessWidget{
               )
             ],
           ),
-      )
+      // )
       // floatingActionButton: FloatingActionButton(
       //   tooltip: 'floatingActionButton',
       //   onPressed: null,
